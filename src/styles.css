@@ -1,1 +1,50 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+.grid{
+    max-width: 1300px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+.cards{
+    width: 215px;
+    height: 335px;
+    background: linear-gradient(180deg, #000000 0%, rgba(83, 83, 83, 0.577381) 25%, rgba(196, 196, 196, 0) 87.5%);
+    box-shadow: 1px 1px 20px 4px #000000;
+    border-radius: 10px; 
+    margin: 0px 80px 50px 0px;   
+}
+.cards p,h3{
+    color: white;
+    padding-left: 25px;
+}
+#valor{
+    font-size: larger;
+    color: orange;
+}
+
+.cards a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    background-color: #C31616;
+    margin: 25px;
+    padding: 10px 40px;
+    border-radius: 12px;
+    
+}
+.cards a:hover{
+    scale: 1.1;
+}
