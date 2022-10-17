@@ -1,3 +1,24 @@
+@charset "UTF-*";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+
+
+/* *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+.grid{
+    max-width: 1300px;
+    width: 90%;
+    margin: 0 auto;
+} */
+
+
+
+
+
 
 /*css header*/
 header{
@@ -53,13 +74,38 @@ h1{
 /*css do banner*/
 
 .banner{
-    background-image: url(/assets/img/banner.png);
+    /* background-image: url(/assets/img/banner.png); */
     height: 810px;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     
 }
+.banner-f1{
+    background-image: url(/assets/img/banner.png);
+    /* height: 810px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%; */
+
+}
+.banner_cs{
+    background-image: url(/assets/img/banner_cs.png);
+    /* height: 810px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%; */
+}
+.banner_lol{
+    background-image: url(/assets/img/banner_lol.png);
+    /* /* height: 810px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%; */
+}
+
+
+
 .posicao_texto{
     display: flex;
     justify-content: flex-end;
@@ -125,7 +171,7 @@ h1{
 }
 .ofertas h2{
     color: white;
-    padding: 25px;
+    padding: 20px;
 }
 
 .ofertas_cards{
@@ -134,20 +180,27 @@ h1{
     justify-content: center;
 }
 
-.cards{
+/* .cards{
     width: 215px;
-    height: 335px;
+    height: 320px;
     background: linear-gradient(180deg, #000000 0%, rgba(83, 83, 83, 0.577381) 25%, rgba(196, 196, 196, 0) 87.5%);
     box-shadow: 1px 1px 20px 4px #000000;
     border-radius: 10px; 
     margin: 0px 80px 50px 0px;   
 }
-.cards p,h3{
+.cards h3{
     color: white;
-    padding-left: 25px;
+    padding-left: 10px;
+    font-size: 25px;
 }
+.cards p{
+    color: white;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
 #valor{
-    font-size: larger;
+    font-size: 18px;
     color: orange;
 }
 
@@ -157,14 +210,14 @@ h1{
     color: white;
     text-transform: uppercase;
     background-color: #C31616;
-    margin: 25px;
+    margin: 10px;
     padding: 10px 40px;
     border-radius: 12px;
     
 }
 .cards a:hover{
     scale: 1.1;
-}
+} */
 
 
 
@@ -187,6 +240,8 @@ h1{
 
 
 .texto_descricao{
+    display: flex;
+    flex-direction: column;
     color: white;
     padding-top: 50px;
 }
@@ -292,3 +347,4 @@ footer .box_logo{
 
 
 }
+
