@@ -13,10 +13,10 @@ export class LoginComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  ngModel = new  User();
+  userModel = new  User();
 
-  receberDados(): void{
-    console.log(this.ngModel);
+  receberDados(){
+    console.log(this.userModel);
 
     
   }
