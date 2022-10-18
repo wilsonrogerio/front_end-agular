@@ -1,0 +1,33 @@
+/*css footer*/
+
+footer{
+    background-color: #010101;
+    padding: 20px;
+    height: 100%;
+}
+footer h2{
+    color: white;
+}
+.rodape{
+    display: flex;
+    justify-content: space-between;
+}
+.links_footer{
+    display: flex;
+    color: white;
+
+}
+.links_footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Titillium Web', sans-serif;
+}
+footer .box_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info_contato{
+    color: white;
+}

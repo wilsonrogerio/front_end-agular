@@ -91,3 +91,38 @@ export class HomeComponent implements OnInit {
   }
 
 }
+/* mudar o banner*/
+
+// $(document).ready(function(){
+
+//   let listaSlides = ["banner-f1", "banner_cs", "banner_lol"]
+//   let slideAtual = 1
+ 
+//   function mudarSlide(){
+//     console.log(slideAtual)
+
+
+//     if (slideAtual > 0) {
+//       $(".banner").removeClass(listaSlides[slideAtual -1])
+
+      
+//     }else{
+//       $(".banner").removeClass(listaSlides[(listaSlides.length -1)])
+//     }
+
+    
+
+
+
+//     $(".banner").addClass(listaSlides[slideAtual])
+
+//     slideAtual++
+
+//     if (slideAtual > (listaSlides.length - 1) ) {
+//       slideAtual = 0
+
+//     }
+//   }
+//   setInterval(mudarSlide, 3000)
+
+// })

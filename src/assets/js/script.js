@@ -21,80 +21,80 @@ function mostrarMenuJquery() {
 
 
 
-function renderizarProdutos(){
-  let secaoProdutos = document.getElementById("secao_produtos")
+// function renderizarProdutos(){
+//   let secaoProdutos = document.getElementById("secao_produtos")
 
-  let listaProdutos = [
-    {
-      nome: "Mouse Gamer",
-      imagem: "img/T1 1.png",
-      descricao: "Mouse gamer cobra, rgb",
-      valor: 99.90
-    },
-    {
-      nome: "mousepad gamer",
-      imagem: "img/T1 1.png",
-      descricao: "Mouse pad gamer 900x400",
-      valor: 99.90
-    },
-    {
-      nome: "Teclado T-dagger",
-      imagem: "img/T1 1.png",
-      descricao: "Teclado gamer rgb t-dagger",
-      valor: 199.90
-    },
-    {
-      nome: "Webcam logitech",
-      imagem: "img/T1 1.png",
-      descricao: "Webcam logitech streamcam",
-      valor: 1299.90
-    },
-    {
-      nome: "Headset redragon",
-      imagem: "img/T1 1.png",
-      descricao: "Headset gamer Redragon",
-      valor: 399.90
-    },
-    {
-      nome: "controle xbox",
-      imagem: "img/T1 1.png",
-      descricao: "Controle xbox series x,s",
-      valor: 599.90
-    },
-    {
-      nome: "Asus rog",
-      imagem: "img/T1 1.png",
-      descricao: "Smartphone gamer",
-      valor: 5399.90
-    },
-    {
-      nome: "Monitor gamer",
-      imagem: "img/T1 1.png",
-      descricao: "Monitor gmaer 165hz",
-      valor: 1399.90
-    }
+//   let listaProdutos = [
+//     {
+//       nome: "Mouse Gamer",
+//       imagem: "img/T1 1.png",
+//       descricao: "Mouse gamer cobra, rgb",
+//       valor: 99.90
+//     },
+//     {
+//       nome: "mousepad gamer",
+//       imagem: "img/T1 1.png",
+//       descricao: "Mouse pad gamer 900x400",
+//       valor: 99.90
+//     },
+//     {
+//       nome: "Teclado T-dagger",
+//       imagem: "img/T1 1.png",
+//       descricao: "Teclado gamer rgb t-dagger",
+//       valor: 199.90
+//     },
+//     {
+//       nome: "Webcam logitech",
+//       imagem: "img/T1 1.png",
+//       descricao: "Webcam logitech streamcam",
+//       valor: 1299.90
+//     },
+//     {
+//       nome: "Headset redragon",
+//       imagem: "img/T1 1.png",
+//       descricao: "Headset gamer Redragon",
+//       valor: 399.90
+//     },
+//     {
+//       nome: "controle xbox",
+//       imagem: "img/T1 1.png",
+//       descricao: "Controle xbox series x,s",
+//       valor: 599.90
+//     },
+//     {
+//       nome: "Asus rog",
+//       imagem: "img/T1 1.png",
+//       descricao: "Smartphone gamer",
+//       valor: 5399.90
+//     },
+//     {
+//       nome: "Monitor gamer",
+//       imagem: "img/T1 1.png",
+//       descricao: "Monitor gmaer 165hz",
+//       valor: 1399.90
+//     }
 
-  ]
-  let template = ""
+//   ]
+//   let template = ""
 
-  for(let index =0; index < listaProdutos.length; index++){
-    template += `
-    <div class="cards">
-      <img src="${ listaProdutos[index].imagem }" alt="">
-      <h3>${ listaProdutos[index].nome }</h3>
-      <p>${ listaProdutos[index].descricao}</p>
-      <p id="valor">R$${ listaProdutos[index].valor }</p>
-      <a href="">comprar</a>
-     </div>
-    `
+//   for(let index =0; index < listaProdutos.length; index++){
+//     template += `
+//     <div class="cards">
+//       <img src="${ listaProdutos[index].imagem }" alt="">
+//       <h3>${ listaProdutos[index].nome }</h3>
+//       <p>${ listaProdutos[index].descricao}</p>
+//       <p id="valor">R$${ listaProdutos[index].valor }</p>
+//       <a href="">comprar</a>
+//      </div>
+//     `
 
-  }
+//   }
 
-  secaoProdutos.innerHTML = template
+//   secaoProdutos.innerHTML = template
 
   
 
-}
+// }
 
 /* mudar o banner*/
 
@@ -104,7 +104,7 @@ $(document).ready(function(){
   let slideAtual = 1
  
   function mudarSlide(){
-    console.log(slideAtual)
+    // console.log(slideAtual)
 
 
     if (slideAtual > 0) {
