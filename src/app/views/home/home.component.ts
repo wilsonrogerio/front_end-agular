@@ -28,19 +28,19 @@ export class HomeComponent implements OnInit {
       {
         nome: "mousepad gamer",
         imagem: "/assets/img/T1 1.png",
-        descricao: "Mouse pad gamer 900x400",
+        descricao: "Mouse pad gamer",
         valor: 99.90
       },
       {
         nome: "Teclado T-dagger",
         imagem: "/assets/img/T1 1.png",
-        descricao: "Teclado gamer rgb t-dagger",
+        descricao: "Teclado gamer t-dagger",
         valor: 199.90
       },
       {
         nome: "Webcam logitech",
         imagem: "/assets/img/T1 1.png",
-        descricao: "Webcam logitech streamcam",
+        descricao: "Webcam logitech",
         valor: 1299.90
       },
       {
