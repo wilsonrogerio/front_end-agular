@@ -1,0 +1,12 @@
+{
+  "users": [
+    {
+      "email": "wilsonrogerio@gmail.com",
+      "password": "$2a$10$ghSKGfc/sazc5k7FGloK0eGYj0wuQ9qXNgIt8Z6jaKKH9iZNPE56W",
+      "nome": "wilson",
+      "idade": 24,
+      "id": 1
+    }
+  ],
+  "produtos": []
+}
