@@ -16,6 +16,7 @@ form {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    border-radius: 10px;
 }
 
 form input[type="submit"] {

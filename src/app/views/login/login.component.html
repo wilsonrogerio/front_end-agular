@@ -1,3 +1,5 @@
+<app-header></app-header>
+
 <main>
     <form (ngSubmit)="receberDados()">
         <div class="campo-label">
@@ -13,6 +15,7 @@
         <input id="botao-enviar" type="submit" value="Fazer Login">
         <!-- <button type="submit">Enviar</button> -->
     </form>
+    <p id="MsgErro" *ngIf=" mensagem != ''">{{mensagem}}</p>
     <a routerLink="">home</a>
 </main>
 <app-foter></app-foter>
