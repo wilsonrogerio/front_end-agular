@@ -49,11 +49,24 @@ export class LoginComponent implements OnInit {
         }else{
           this.mensagem = msgErro.error
         }
+
         if (msgErro.error== "Incorrect password") {
           this.mensagem = "Senha incorreta"
         }else{
           this.mensagem = msgErro.error
         }
+
+        if (msgErro.error == "Cannot find user") {
+          this.mensagem = "Usuario nao encontrado"
+        }else{
+          this.mensagem = msgErro.error
+        }
+
+       if (msgErro.error == "Email format is invalid") {
+        this.mensagem = "Formato do email invalido"
+       }else{
+        this.mensagem = msgErro
+       }
 
 
 
